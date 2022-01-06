@@ -5,11 +5,10 @@ import Navbar from "./Navbar"
 import MobileNavbar from "./MobileNavbar"
 import { Helmet } from "react-helmet"
 import Footer from "./Footer"
-
+import "@fontsource/cairo/400.css" // Defaults to weight 400.
+import "@fontsource/cairo/700.css" // Defaults to weight 400.
 
 const Layout = ({ children }) => {
-  
-
   return (
     <div className="font relative bg-gray-50">
           <Helmet>

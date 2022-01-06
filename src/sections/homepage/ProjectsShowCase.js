@@ -48,13 +48,13 @@ export default function ProjectsShowCase() {
                     </div>
                 </div>
             </div>
-            <div className="flex items-center justify-center mb-20">
+            <div className="flex items-center justify-center my-20">
                 <Link to ="/projects" className="bg-white border border-gray-200 shadow-2xl rounded-lg flex justify-center items-center py-3 px-10">
                     <div  className='text-lg font-bold  text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-700  '>رؤية جميع المشاريع</div>
                 </Link>
             </div>
 
-            <div className=" h-full">
+            <div className=" h-full px-5">
                 <div className="text-4xl tracking-wide leading-relaxed lg:text-5xl text-center font-bold text-neutral-600 mt-10 ">
                     بحث - تصميم - تطوير - تحسين
                 </div>

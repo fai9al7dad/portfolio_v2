@@ -3,7 +3,7 @@ import adobexdDesign from '../../images/adobexdDesign.png'
 export default function Section3() {
     return (
         <div>
-            <div  className="text-right container mx-auto px-5 md:px-0  flex flex-col items-end justify-center h-screen ">
+            <div  className="text-right container mx-auto  flex flex-col items-end justify-center h-screen ">
                 <div className="grid md:grid-cols-2 gap-10">
                     <div className='md:order-2 flex flex-col items-end'>
     

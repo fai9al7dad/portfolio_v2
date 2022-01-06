@@ -14,7 +14,7 @@ export default function projects() {
     return (
         <LayoutEN>
             <div className="text-4xl tracking-wide leading-relaxed lg:text-5xl text-center font-bold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600 pt-36 md:pt-0 md:h-14">
-                المشاريع
+                Projects
             </div>
             <ProjectEN title="Al-Mastorah Bir charity" desc="Added a store to website, which includes a payment gateway which supports Apple pay, mada, Visa" link="http://mastorahbr.org.sa/shop/ " image={mastorahbr} />
             <ProjectEN title="Car plus" desc='Luxurios car renting landing page,Uses google analytics to provide user statistics' link="https://www.carplus-sa.com" image={carplus} />

@@ -17,14 +17,18 @@ export default function Project({title,desc,link,image,order, isPrivate}) {
                                 <div className='text-lg font-bold py-2 px-5 text-gray-600 '> 😊 عذرا الرابط خاص</div>
                             </div>
                             :
-                            <a href={link} target="_blank" className="mt-10 shadow-2xl bg-gradient-to-r  from-sky-500 to-sky-600  border-2 border-sky-300 rounded-lg px-3 py-1 flex justify-center items-center">
-                                <div className='text-lg font-bold py-2 px-5 text-white '>رؤية المشروع</div>
+                            <a href={link} target="_blank" className="mt-10 shadow-2xl bg-gradient-to-r  py-3 px-8 from-sky-500 to-sky-600  border-2 border-sky-300 rounded-lg  flex justify-center items-center">
+                                <div className="">
+                                    <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                </div>
+                                <div className='text-lg font-bold text-white ml-2'>رؤية المشروع</div>
                             </a>    
                         }
                     </div>
 
                     <div className="">
                         <img src={image} className='w-full rounded-2xl shadow-2xl'/>
+                        
                     </div>
                 </div>
             </div>

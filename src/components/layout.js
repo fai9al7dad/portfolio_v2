@@ -1,6 +1,5 @@
 
 import * as React from "react"
-import PropTypes from "prop-types"
 import Navbar from "./Navbar"
 import MobileNavbar from "./MobileNavbar"
 import { Helmet } from "react-helmet"
@@ -29,8 +28,5 @@ const Layout = ({ children }) => {
   )
 }
 
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
 
 export default Layout

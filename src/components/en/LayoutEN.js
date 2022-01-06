@@ -1,6 +1,5 @@
 
 import * as React from "react"
-import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import "@fontsource/cairo/400.css" // Defaults to weight 400.
 import "@fontsource/cairo/700.css" // Defaults to weight 400.
@@ -29,8 +28,5 @@ const LayoutEN = ({ children }) => {
   )
 }
 
-LayoutEN.propTypes = {
-  children: PropTypes.node.isRequired,
-}
 
 export default LayoutEN

@@ -1,6 +1,5 @@
 import React from 'react'
 import LayoutEN from "../components/en/LayoutEN"
-import Project from '../components/Project'
 import monathem from '../images/projects/monathem.png'
 import khodarwabahar from '../images/projects/khodarwabahar.png'
 import binothaymeen from '../images/projects/binothaymeen.png'

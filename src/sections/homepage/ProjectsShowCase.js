@@ -54,8 +54,8 @@ export default function ProjectsShowCase() {
                 </Link>
             </div>
 
-            <div className=" h-full px-5">
-                <div className="text-4xl tracking-wide leading-relaxed lg:text-5xl text-center font-bold text-neutral-600 mt-10 ">
+            <div className=" h-full mx-auto px-5">
+                <div className="text-3xl tracking-wide leading-relaxed lg:text-5xl text-center font-bold text-neutral-600 mt-10 ">
                     بحث - تصميم - تطوير - تحسين
                 </div>
                 <div className="text-2xl text-neutral-600 mt-5 text-center">

@@ -38,7 +38,7 @@ export default function ProjectsShowCaseEN() {
                             Uses google analytics to provide user statistics. Built with <span className="text-green-500 font-bold">Static Nuxt</span> 
                         </div>
                         <a href="https://www.carplus-sa.com" target="_blank" className="mt-10 shadow-2xl bg-gradient-to-r  from-sky-500 to-sky-600  border-2 border-sky-300 rounded-lg px-3 py-1 flex justify-center items-center">
-                            <div className='text-lg font-bold py-2 px-5 text-white '>رؤية المشروع</div>
+                            <div className='text-lg font-bold py-2 px-5 text-white '>See project</div>
                         </a>
                     </div>
 
@@ -47,13 +47,13 @@ export default function ProjectsShowCaseEN() {
                     </div>
                 </div>
             </div>
-            <div className="flex items-center justify-center mb-20">
+            <div className="flex items-center justify-center my-20">
                 <Link to ="/en/projects" className="bg-white border border-gray-200 shadow-2xl rounded-lg flex justify-center items-center py-3 px-10">
                     <div  className='text-lg font-bold  text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-700  '>See all projects !</div>
                 </Link>
             </div>
 
-            <div className=" h-full">
+            <div className=" h-full mx-auto px-5">
                 <div className="text-4xl tracking-wide leading-relaxed lg:text-5xl text-center font-bold text-neutral-600 mt-10 ">
                     Research - Design - Develop - Evaluate
                 </div>

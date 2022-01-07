@@ -1,11 +1,15 @@
 import React from 'react'
 import { Link } from 'gatsby'
 export default function MobileNavbarEN() {
-  const url = typeof window !== 'undefined' ? window.location.href : '';
-  const urlArray = url.split('/');
-  const pageName = urlArray[3];
-  const language = "en/"
-  const langPath = language.concat(pageName)
+  const url = typeof window !== 'undefined' ? window.location.href : '/';
+    const urlArray = url.split('/');
+    let pageName = urlArray[4];
+    let langPath;
+    if (pageName === undefined){
+        langPath = "/"
+    }else{
+        langPath = "/" + pageName
+    }
     return (
         <div className="flex justify-center items-center visible md:invisible">
           <nav className="fixed bottom-3 flex justify-evenly items-center w-4/5 bg-gray-900 border border-gray-700 py-3 shadow-lg rounded-lg z-50">

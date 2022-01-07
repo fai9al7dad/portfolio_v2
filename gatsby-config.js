@@ -37,7 +37,7 @@ module.exports = {
       resolve: 'gatsby-plugin-i18n',
       options: {        
         langKeyDefault: 'ar',
-        useLangKeyLayout: false
+        useLangKeyLayout: false,
       }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

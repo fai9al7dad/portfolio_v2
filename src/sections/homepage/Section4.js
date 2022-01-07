@@ -17,8 +17,7 @@ export default function Section4() {
                         </div>
                         <div className="md:w-3/4">
                             <div className="text-lg tracking-wide leading-relaxed lg:text-2xl mt-5 z-10 text-accent md:py-5">
-                            تبدأ اهم وأطول مرحلة.  في هذه المرحلة ابحث واختار لغة البرمجة 
-            والاطار المناسب لاداء طلبك، 
+                                أطول مرحلة، بعد الإنتهاء من البحث والتصميم ، ومع هيكلة واضحة للنظام، أستطيع البرمجة بكل أريحية مع وضع السرعة والتوسع في الحسبان
                                 <span className="text-white mr-1">
                                 سواء كان تطبيق جوال او موقع أو كلاهما 
                                 </span> 

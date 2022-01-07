@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 
 export default function contact() {
+    
     return (
         <Layout>
             <div className="h-screen flex items-center justify-center px-5">

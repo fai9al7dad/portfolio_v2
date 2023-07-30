@@ -8,18 +8,15 @@ import Section4 from "../sections/homepage/Section4"
 import Section5 from "../sections/homepage/Section5"
 
 const IndexPage = () => (
-
   <Layout>
-    <Section1/>
-    <ProjectsShowCase/>
-    <Section2/>
+    <Section1 />
+    <Section2 />
     <div className="bg-black mt-20 py-18   px-5 md:px-20">
-      <Section3/>
-      <Section4/>
+      <Section3 />
+      <Section4 />
     </div>
-    
-    <Section5/>
 
+    <Section5 />
   </Layout>
 )
 

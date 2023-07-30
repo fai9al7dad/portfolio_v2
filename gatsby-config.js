@@ -8,7 +8,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
-    'gatsby-plugin-postcss',
+    "gatsby-plugin-postcss",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -18,7 +18,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    
+
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -30,15 +30,15 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/faisalhaddad.jpg`, // This path is relative to the root of the site.
       },
     },
     {
-      resolve: 'gatsby-plugin-i18n',
-      options: {        
-        langKeyDefault: 'ar',
+      resolve: "gatsby-plugin-i18n",
+      options: {
+        langKeyDefault: "ar",
         useLangKeyLayout: false,
-      }
+      },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
